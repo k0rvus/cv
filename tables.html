@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>👾Sponchie's Personal Site</title>
+</head>
+
+<body>
+  <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Demonoid.png" alt="It's broken.">
+  <h3>Testing with tables and table outlines.</h3>
+  <p>Columns with <em>no</em> borders.</p>
+  <table>
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Columns with <em>basic</em> borders and a <strong>header</strong> row.</p>
+  <table border="2">
+
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Columns with <em>cell padding</em> and <em>cell spacing</em> added.</p>
+  <table border="2" cellpadding="5" cellspacing="5">
+
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Columns with a <em>merged header row</em> along with a <em>merged column row</em> added.</p>
+  <table border="2" cellpadding="5">
+
+    <th colspan="4">Columns 1, 2 and 3</th>
+
+    <tr>
+      <td rowspan="4">Sponchie's Data</td>
+    </tr>
+
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Columns with <u>extended</u> <em>row height</em> and <em>column length</em>.</p>
+  <table border="2" width="600" height="250">
+
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Columns extended to the maximum length of the screen and a I added a caption above the header row.</p>
+  <table border="2" width="100%">
+    <caption><strong>This is a caption</strong></caption>
+
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+    </tr>
+
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <p>Separating the header, body and footer.</p>
+  <table border="2" width="100%">
+
+    <thead>
+      <tr>
+        <td colspan="3">Columns 1, 2 and 3. This is the column header row.</td>
+      </tr>
+    </thead>
+
+    <tfoot>
+      <tr>
+        <td colspan="2"><strong><em>Total Money Spent:</em></strong></td>
+        <td><strong><em>$100.00</em></strong></td>
+      </tr>
+    </tfoot>
+
+    <tbody>
+      <tr>
+        <td>Doe</td>
+        <td>John</td>
+        <td>$75.00</td>
+      </tr>
+      <tr>
+        <td>Noyb</td>
+        <td>Sponchie</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>Schmoe</td>
+        <td>Joe</td>
+        <td>$15.00</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <br><br><br><br>
+
+</body>
+</html>
